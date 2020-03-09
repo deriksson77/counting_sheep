@@ -1,5 +1,5 @@
-FROM centos/python-35-centos7:latest
+FROM python:3
 
-COPY . /tmp/
+ADD counting_sheep.py /
 
-CMD [ "python" "/tmp/counting_sheep.py" ]
+CMD [ "python", "./counting_sheep.py" ]
