@@ -4,19 +4,19 @@
 
 import time
 
-# def main():
-x = 0
+def main():
+    x = 0
 
-print("Counting sheep...")
+    print("Counting sheep...")
 
-while True:
-    try:
-        x = x + 1
-        print(x)
-        time.sleep(2)
-    except KeyboardInterrupt:
-    raise
+    while True:
+        try:
+            x = x + 1
+            print(x)
+            time.sleep(2)
+        except KeyboardInterrupt:
+            raise
 
-# if __name__ == "__main__":
-#    main()
+if __name__ == "__main__":
+    main()
     
